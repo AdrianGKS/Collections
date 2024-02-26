@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/Aula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaListaDeAula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestandoListas.java" afterDir="false" />
+    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: first commit">
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCurso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.TestaCurso.executor": "Run",
     "Application.TestaListaDeAula.executor": "Run",
     "Application.TestandoListas.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -75,11 +69,25 @@
       <option name="presentableId" value="Default" />
       <updated>1708017069759</updated>
       <workItem from="1708017070756" duration="1469000" />
-      <workItem from="1708022482837" duration="1286000" />
+      <workItem from="1708022482837" duration="1367000" />
+      <workItem from="1708979393838" duration="1718000" />
     </task>
+    <task id="LOCAL-00001" summary="commit:: first commit">
+      <option name="closed" value="true" />
+      <created>1708023803070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708023803070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit:: first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:: first commit" />
   </component>
 </project>
