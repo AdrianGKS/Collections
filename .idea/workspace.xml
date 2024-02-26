@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: first commit">
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCurso.java" afterDir="false" />
+    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: relacionamento com coleções">
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCurso2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TesteListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaCurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCurso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +40,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.TestaCurso.executor": "Run",
+    "Application.TestaCurso2.executor": "Run",
     "Application.TestaListaDeAula.executor": "Run",
     "Application.TestandoListas.executor": "Run",
+    "Application.TesteListas.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -53,6 +57,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.collections" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +79,7 @@
       <updated>1708017069759</updated>
       <workItem from="1708017070756" duration="1469000" />
       <workItem from="1708022482837" duration="1367000" />
-      <workItem from="1708979393838" duration="1718000" />
+      <workItem from="1708979393838" duration="3967000" />
     </task>
     <task id="LOCAL-00001" summary="commit:: first commit">
       <option name="closed" value="true" />
@@ -80,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708023803070</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit:: relacionamento com coleções">
+      <option name="closed" value="true" />
+      <created>1708981130957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708981130957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit:: first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:: first commit" />
+    <MESSAGE value="commit:: relacionamento com coleções" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:: relacionamento com coleções" />
   </component>
 </project>
