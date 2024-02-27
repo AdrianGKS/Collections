@@ -4,6 +4,9 @@ import br.com.collections.model.Aluno;
 import br.com.collections.model.Aula;
 import br.com.collections.model.Curso;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TesteBusca {
     public static void main(String[] args) {
         Curso javaColecoes = new Curso("Dominando as coleções do Java",
@@ -25,8 +28,17 @@ public class TesteBusca {
 
         Aluno aluno = javaColecoes.buscarMatricula(17645);
         System.out.println("Aluno: " + aluno);
+        System.out.println("----------------------------------");
 
-        Aluno aluno2 = javaColecoes.buscarMatricula(1221);
-        System.out.println("Aluno: " + aluno2);
+//        Aluno aluno2 = javaColecoes.buscarMatricula(1221);
+//        System.out.println("Aluno: " + aluno2);
+
+        Map<Integer, Aluno> map = new HashMap<>();
+        map.put(1, a1);
+        map.put(2, a2);
+        map.put(3, a3);
+        map.put(4, a4);
+
+        map.keySet().forEach(n -> System.out.println(map.get(n)));
     }
 }
