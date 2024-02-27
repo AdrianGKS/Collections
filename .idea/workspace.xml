@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: outros tipos de relacionamentos entre Collections">
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaAlunos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCursoComAluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/Curso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,7 @@
     "Application.TestaAlunos.executor": "Run",
     "Application.TestaCurso.executor": "Run",
     "Application.TestaCurso2.executor": "Run",
+    "Application.TestaCursoComAluno.executor": "Run",
     "Application.TestaListaDeAula.executor": "Run",
     "Application.TestandoListas.executor": "Run",
     "Application.TesteListas.executor": "Run",
@@ -47,6 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Intellij Workspace/Collections/src/br/com/collections",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +60,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intellij Workspace\Collections\src\br\com\collections" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.collections" />
     </key>
@@ -78,6 +85,7 @@
       <workItem from="1708017070756" duration="1469000" />
       <workItem from="1708022482837" duration="1367000" />
       <workItem from="1708979393838" duration="5241000" />
+      <workItem from="1709067951426" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="commit:: first commit">
       <option name="closed" value="true" />
