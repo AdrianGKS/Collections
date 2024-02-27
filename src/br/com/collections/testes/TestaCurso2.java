@@ -1,4 +1,7 @@
-package br.com.collections;
+package br.com.collections.testes;
+
+import br.com.collections.model.Aula;
+import br.com.collections.model.Curso;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,13 +19,16 @@ public class TestaCurso2 {
         List<Aula> aulasImutaveis = javaCollections.getAulas();
 
         System.out.println(aulasImutaveis);
+        System.out.println("----------------------------------");
 
         List<Aula> aulas = new ArrayList<>(aulasImutaveis);
 
         Collections.sort(aulas);
         System.out.println(aulas);
+        System.out.println("----------------------------------");
 
         System.out.println(javaCollections.getTempoTotal());
+        System.out.println("----------------------------------");
 
         System.out.println(javaCollections);
     }

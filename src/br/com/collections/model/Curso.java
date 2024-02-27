@@ -1,4 +1,4 @@
-package br.com.collections;
+package br.com.collections.model;
 
 import java.util.*;
 
@@ -8,6 +8,7 @@ public class Curso {
     private String instrutor;
     private List<Aula> aulas = new ArrayList<>();
     private Set<Aluno> alunos = new HashSet<>();
+    private Map<Integer, Aluno> matriculaDeAluno = new HashMap<>();
 
 
     public Curso(String nome, String instrutor) {
@@ -43,6 +44,7 @@ public class Curso {
 
     public void matricular(Aluno aluno) {
         this.alunos.add(aluno);
+        this.matriculaDeAluno.put(aluno.getNumeroMatricula(), aluno);
     }
 
     public boolean verificarMatricula(Aluno alunos) {
@@ -60,5 +62,10 @@ public class Curso {
                 "]";
     }
 
+    public Aluno buscarMatricula(int numero) {
+        if (!matriculaDeAluno.containsKey(numero))
+            throw new NoSuchElementException("Não há aluno com tal matrícula");
 
+        return matriculaDeAluno.get(numero);
+    }
 }

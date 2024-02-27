@@ -1,8 +1,8 @@
-package br.com.collections;
+package br.com.collections.testes;
 
 
-import java.util.ArrayList;
-import java.util.List;
+import br.com.collections.model.Aula;
+import br.com.collections.model.Curso;
 
 public class TestaCurso {
     public static void main(String[] args) {

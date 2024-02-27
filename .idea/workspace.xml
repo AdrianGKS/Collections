@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: outros tipos de relacionamentos entre Collections">
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/TestaCursoComAluno.java" afterDir="false" />
+    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: aplicando equals e hashCode">
+      <change afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TesteBusca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/model/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Aula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/model/Aula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/model/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaAlunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestaAlunos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaCurso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestaCurso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaCurso2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestaCurso2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaCursoComAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestaCursoComAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestaListaDeAula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestaListaDeAula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TestandoListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TestandoListas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/collections/TesteListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TesteListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +52,14 @@
     "Application.TestaCursoComAluno.executor": "Run",
     "Application.TestaListaDeAula.executor": "Run",
     "Application.TestandoListas.executor": "Run",
+    "Application.TesteBusca.executor": "Run",
     "Application.TesteListas.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Intellij Workspace/Collections/src/br/com/collections",
+    "last_opened_file_path": "D:/Intellij Workspace/icpa-ecommerce-develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +94,7 @@
       <workItem from="1708017070756" duration="1469000" />
       <workItem from="1708022482837" duration="1367000" />
       <workItem from="1708979393838" duration="5241000" />
-      <workItem from="1709067951426" duration="1784000" />
+      <workItem from="1709067951426" duration="6611000" />
     </task>
     <task id="LOCAL-00001" summary="commit:: first commit">
       <option name="closed" value="true" />
@@ -111,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708983552682</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit:: aplicando equals e hashCode">
+      <option name="closed" value="true" />
+      <created>1709069891407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709069891407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +138,7 @@
     <MESSAGE value="commit:: first commit" />
     <MESSAGE value="commit:: relacionamento com coleções" />
     <MESSAGE value="commit:: outros tipos de relacionamentos entre Collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:: outros tipos de relacionamentos entre Collections" />
+    <MESSAGE value="commit:: aplicando equals e hashCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:: aplicando equals e hashCode" />
   </component>
 </project>

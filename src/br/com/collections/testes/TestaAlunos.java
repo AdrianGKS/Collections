@@ -1,4 +1,4 @@
-package br.com.collections;
+package br.com.collections.testes;
 
 import java.util.HashSet;
 import java.util.Set;

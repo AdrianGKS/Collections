@@ -1,4 +1,6 @@
-package br.com.collections;
+package br.com.collections.testes;
+
+import br.com.collections.model.Aula;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,12 +19,15 @@ public class TestaListaDeAula {
         aulas.add(a3);
 
         System.out.println(aulas);
+        System.out.println("----------------------------------");
 
         Collections.sort(aulas);
         System.out.println(aulas);
+        System.out.println("----------------------------------");
 
         Collections.sort(aulas, Comparator.comparing(Aula::getTempo));
         System.out.println(aulas);
+        System.out.println("----------------------------------");
 
         aulas.sort(Comparator.comparing(Aula::getTempo));
         System.out.println(aulas);

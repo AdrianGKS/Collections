@@ -1,4 +1,4 @@
-package br.com.collections;
+package br.com.collections.model;
 
 import java.util.Objects;
 
