@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit:: conhecendo iterator e a Interface Map">
-      <change afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TesteMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/collections/testes/TesteBusca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/collections/testes/TesteBusca.java" afterDir="false" />
-    </list>
+    <list default="true" id="f45c88f1-c3c6-4c4d-aeb7-a092a3e7871d" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -51,7 +47,6 @@
     "Application.TesteMap.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Intellij Workspace/icpa-ecommerce-develop",
@@ -89,7 +84,7 @@
       <workItem from="1708017070756" duration="1469000" />
       <workItem from="1708022482837" duration="1367000" />
       <workItem from="1708979393838" duration="5241000" />
-      <workItem from="1709067951426" duration="8348000" />
+      <workItem from="1709067951426" duration="8487000" />
     </task>
     <task id="LOCAL-00001" summary="commit:: first commit">
       <option name="closed" value="true" />
@@ -131,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709074731794</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit:: conhecendo mais algumas coisas sobre Maps">
+      <option name="closed" value="true" />
+      <created>1709076457520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709076457520</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709076479972</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709076479972</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +154,8 @@
     <MESSAGE value="commit:: outros tipos de relacionamentos entre Collections" />
     <MESSAGE value="commit:: aplicando equals e hashCode" />
     <MESSAGE value="commit:: conhecendo iterator e a Interface Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:: conhecendo iterator e a Interface Map" />
+    <MESSAGE value="commit:: conhecendo mais algumas coisas sobre Maps" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
